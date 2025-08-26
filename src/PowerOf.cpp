@@ -3,6 +3,7 @@
 //
 
 #include "PowerOf.h"
+#include <iostream>
 
 bool EvenNumberChecker(int n) {
     if (n % 2 == 0)
@@ -32,7 +33,6 @@ int unoptimizedDCPower(int x, int n) {
         return unoptimizedDCPower(x, n / 2) * unoptimizedDCPower(x, n / 2);
     else
         return x * unoptimizedDCPower(x, n / 2) * unoptimizedDCPower(x, n / 2);
-
 }
 
 int optimizedDCPower(int x, int n) {
