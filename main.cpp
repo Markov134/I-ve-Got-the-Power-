@@ -4,7 +4,7 @@
 #include "src/PowerOf.h"
 
 int main() {
-  std::cout << "The factorial of 5 is " << factorial(5) << std::endl;
+  //std::cout << "The factorial of 5 is " << factorial(5) << std::endl;
 
   int temp = naivePower(2, 5);
   std::cout << temp << std::endl;
